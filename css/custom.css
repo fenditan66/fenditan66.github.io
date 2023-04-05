@@ -1,1 +1,32 @@
 /* your styles go here */
+.ds-projects-section{padding: 7.5rem 0 }
+.ds-projects-section h2{ font-size: 2.5rem; line-height: 3.375rem; width: 100%;max-width:40%;margin: 0}
+.ds-projects-section h2 span{ display: block; text-transform: uppercase; color: #FBD214; font-weight: 600; letter-spacing: 3px; font-size: 0.75rem; margin-bottom: 0.625rem}
+
+.ds-projects-listing-section{ margin-top:5rem  }
+.ds-projects-loop figure{ margin-right: 60px; position: relative;cursor:pointer;}
+.ds-projects-loop:hover figure img{max-width: 100%;border: none;outline: none;height: auto;}
+img{max-width: 100%;border: none;outline: none;height: auto;}
+.ds-projects-loop:hover figure img.ds-image-shadow{box-shadow:20px 20px #FBD214;}
+.ds-link-button{ position: absolute; right:0.4375rem; top:0.4375rem; width: 2rem; height: 2rem; border-radius: 3px; background-color: #000; display: block; justify-content: center; align-items: center; color: #CBFE00; font-size: 1.125rem; text-align: center; opacity: 0 }
+.ds-projects-loop:hover .ds-link-button{ opacity: 1 }
+.ds-projects-loop section{ margin-top: 5.875rem }
+.ds-projects-loop section h3{font-weight: 700; font-size: 1.25rem}
+.ds-projects-loop section span{ font-size: 1rem; font-weight: 400 }
+.ds-image-shadow{box-shadow:30px 30px #FBD214;}
+.transition {text-decoration: none;outline: none;transition-delay: 0s;transition-duration: 0.4s;transition-property: all;transition-timing-function: ease;box-shadow: none;}
+@media (max-width: 767px) {
+	.ds-projects-section h2 span{ margin-bottom: 0 }
+	.ds-projects-listing-section {margin-top: 3rem;}
+	.ds-projects-loop section{margin-top: 2.875rem;}
+	.ds-projects-loop figure{ margin-right: 20px }
+	.ds-projects-loop{margin-bottom: 3.5rem;}
+	.ds-projects-loop:last-child{ margin-bottom: 0 }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+.ds-projects-section h2{ max-width: 60% }
+.ds-projects-loop figure{ margin-right: 40px }
+}
+
